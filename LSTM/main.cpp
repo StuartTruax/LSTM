@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include "LSTMTest.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    LSTMTest* t =  new LSTMTest();
+    
+    cout<<"Begin Unit Tests of LSTM Networks"<<"\n"; 
+    
+    t->setUp();
+    t->testIterations();
+    t->testIterations_N_N();
+    t->testIterations_N_M();
+    t->testIterations_N_1();
+    t->testIterations_1_M();
+    t->testLSTMMath();
+    t->tearDown();
+    
     return 0;
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		131B0CE52146DF0B00413A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B0CE42146DF0B00413A5E /* main.cpp */; };
+		131B0CEF2146E08500413A5E /* LSTM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B0CEC2146E08500413A5E /* LSTM.cpp */; };
+		131B0CF02146E08500413A5E /* LSTMMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B0CEE2146E08500413A5E /* LSTMMath.cpp */; };
+		131B0CF62146E27800413A5E /* LSTMTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B0CF52146E27800413A5E /* LSTMTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		131B0CE12146DF0B00413A5E /* LSTM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LSTM; sourceTree = BUILT_PRODUCTS_DIR; };
 		131B0CE42146DF0B00413A5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		131B0CEB2146E08500413A5E /* LSTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTM.h; sourceTree = "<group>"; };
+		131B0CEC2146E08500413A5E /* LSTM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSTM.cpp; sourceTree = "<group>"; };
+		131B0CED2146E08500413A5E /* LSTMMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTMMath.h; sourceTree = "<group>"; };
+		131B0CEE2146E08500413A5E /* LSTMMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LSTMMath.cpp; sourceTree = "<group>"; };
+		131B0CF52146E27800413A5E /* LSTMTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LSTMTest.cpp; sourceTree = "<group>"; };
+		131B0CF72146E28C00413A5E /* LSTMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTMTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		131B0CE32146DF0B00413A5E /* LSTM */ = {
 			isa = PBXGroup;
 			children = (
+				131B0CEC2146E08500413A5E /* LSTM.cpp */,
+				131B0CEB2146E08500413A5E /* LSTM.h */,
+				131B0CEE2146E08500413A5E /* LSTMMath.cpp */,
+				131B0CED2146E08500413A5E /* LSTMMath.h */,
 				131B0CE42146DF0B00413A5E /* main.cpp */,
+				131B0CF52146E27800413A5E /* LSTMTest.cpp */,
+				131B0CF72146E28C00413A5E /* LSTMTest.h */,
 			);
 			path = LSTM;
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				131B0CE52146DF0B00413A5E /* main.cpp in Sources */,
+				131B0CF62146E27800413A5E /* LSTMTest.cpp in Sources */,
+				131B0CEF2146E08500413A5E /* LSTM.cpp in Sources */,
+				131B0CF02146E08500413A5E /* LSTMMath.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
